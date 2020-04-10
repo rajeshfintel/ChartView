@@ -13,7 +13,7 @@ It supports:
 
 It requires iOS 13 and Xcode 11!
 
-In Xcode got to `File -> Swift Packages -> Add Package Dependency` and paste inthe repo's url: `https://github.com/AppPear/ChartView`
+In Xcode got to `File -> Swift Packages -> Add Package Dependency` and paste inthe repo's url: `https://github.com/rajeshfintel/ChartView`
 
 ### Usage:
 
@@ -23,7 +23,7 @@ You can display a Chart by adding a chart view to your parent view:
 
 ### Demo
 
-Added an example project, with **iOS, watchOS** target: https://github.com/AppPear/ChartViewDemo
+Library source coded added in to this branch for Charts UI enhancement : https://github.com/rajeshfintel/ChartViewDemoLocal.git
 
 ## Line charts
 
