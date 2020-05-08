@@ -22,6 +22,7 @@ public struct BarChartCell : View {
             .frame(width: CGFloat(self.cellWidth))
             .scaleEffect(CGSize(width: 1, height: self.value), anchor: .bottom)
             .onAppear(){
+                //FIX:- Bar chart issue
 //                self.scaleValue = self.value
             }
         .animation(Animation.spring().delay(self.touchLocation < 0 ?  Double(self.index) * 0.04 : 0))

@@ -47,7 +47,6 @@ public struct BarChartView : View {
     
     public var body: some View {
         ZStack{
-            Print("data: \(data.points)")
             Rectangle()
                 .fill(self.colorScheme == .dark ? self.darkModeStyle.backgroundColor : self.style.backgroundColor)
                 .cornerRadius(20)
