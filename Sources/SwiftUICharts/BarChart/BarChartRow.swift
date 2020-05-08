@@ -9,7 +9,7 @@
 import SwiftUI
 
 public struct BarChartRow : View {
-    var data: [Double]
+    @ObservedObject var data: [Double]
     var accentColor: Color
     var gradient: GradientColor?
     var maxValue: Double {
